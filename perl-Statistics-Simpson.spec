@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Statistics
-%define	pnam	Simpson
+%define		pdir	Statistics
+%define		pnam	Simpson
 Summary:	Statistics::Simpson - Simpson index
 Summary(pl):	Statistics::Simpson - wska¼nik Simpsona
 Name:		perl-Statistics-Simpson
