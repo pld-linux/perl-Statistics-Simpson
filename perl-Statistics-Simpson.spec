@@ -10,7 +10,8 @@ Summary(pl):	Statistics::Simpson - wska¼nik Simpsona
 Name:		perl-Statistics-Simpson
 Version:	0.01
 Release:	3
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a60893a4efc2023d35eece27b1ab6aa8
