@@ -9,7 +9,7 @@ Summary:	Statistics::Simpson - Simpson index
 Summary(pl):	Statistics::Simpson - wska¼nik Simpsona
 Name:		perl-Statistics-Simpson
 Version:	0.01
-Release:	2
+Release:	3
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
