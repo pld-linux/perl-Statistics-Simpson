@@ -6,27 +6,28 @@
 %define	pdir	Statistics
 %define	pnam	Simpson
 Summary:	Statistics::Simpson - Simpson index
-#Summary(pl):	
+Summary(pl):	Statistics::Simpson - wska¼nik Simpsona
 Name:		perl-Statistics-Simpson
 Version:	0.01
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-26
 %if %{?_without_tests:0}%{!?_without_tests:1}
 BuildRequires:	perl-Statistics-Frequency >= 0.03
 %endif
+BuildRequires:	rpm-perlprov >= 3.0.3-26
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The Statistics::Simpson module can be used to compute the Simpson index
-of data, which measures the variability of data.
+The Statistics::Simpson module can be used to compute the Simpson
+index of data, which measures the variability of data.
 
-# %description -l pl
-# TODO
+%description -l pl
+Modu³ Statistics::Simpson mo¿e byæ u¿ywany do liczenia wska¼nika
+Simpsona danych, który jest miar± zmienno¶ci danych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
