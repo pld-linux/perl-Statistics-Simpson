@@ -6,7 +6,7 @@
 %define		pdir	Statistics
 %define		pnam	Simpson
 Summary:	Statistics::Simpson - Simpson index
-Summary(pl):	Statistics::Simpson - wskaºnik Simpsona
+Summary(pl.UTF-8):   Statistics::Simpson - wska≈∫nik Simpsona
 Name:		perl-Statistics-Simpson
 Version:	0.01
 Release:	4
@@ -27,9 +27,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The Statistics::Simpson module can be used to compute the Simpson
 index of data, which measures the variability of data.
 
-%description -l pl
-Modu≥ Statistics::Simpson moøe byÊ uøywany do liczenia wskaºnika
-Simpsona danych, ktÛry jest miar± zmienno∂ci danych.
+%description -l pl.UTF-8
+Modu≈Ç Statistics::Simpson mo≈ºe byƒá u≈ºywany do liczenia wska≈∫nika
+Simpsona danych, kt√≥ry jest miarƒÖ zmienno≈õci danych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
