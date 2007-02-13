@@ -6,7 +6,7 @@
 %define		pdir	Statistics
 %define		pnam	Simpson
 Summary:	Statistics::Simpson - Simpson index
-Summary(pl.UTF-8):   Statistics::Simpson - wskaźnik Simpsona
+Summary(pl.UTF-8):	Statistics::Simpson - wskaźnik Simpsona
 Name:		perl-Statistics-Simpson
 Version:	0.01
 Release:	4
