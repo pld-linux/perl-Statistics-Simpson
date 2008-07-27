@@ -9,7 +9,7 @@ Summary:	Statistics::Simpson - Simpson index
 Summary(pl.UTF-8):	Statistics::Simpson - wskaźnik Simpsona
 Name:		perl-Statistics-Simpson
 Version:	0.01
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
