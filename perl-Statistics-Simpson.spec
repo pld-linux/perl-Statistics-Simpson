@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Statistics
 %define		pnam	Simpson
+%include	/usr/lib/rpm/macros.perl
 Summary:	Statistics::Simpson - Simpson index
 Summary(pl.UTF-8):	Statistics::Simpson - wskaźnik Simpsona
 Name:		perl-Statistics-Simpson
@@ -15,11 +15,12 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a60893a4efc2023d35eece27b1ab6aa8
+URL:		http://search.cpan.org/dist/Statistics-Simpson/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Statistics-Frequency >= 0.03
 %endif
-BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
