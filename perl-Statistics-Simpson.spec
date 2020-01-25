@@ -4,7 +4,6 @@
 
 %define		pdir	Statistics
 %define		pnam	Simpson
-%include	/usr/lib/rpm/macros.perl
 Summary:	Statistics::Simpson - Simpson index
 Summary(pl.UTF-8):	Statistics::Simpson - wskaźnik Simpsona
 Name:		perl-Statistics-Simpson
